@@ -26,7 +26,7 @@ double Map::getDistance(int vertexA, int vertexB){
 Map::Map(string filePath){
 	string line;
 	cout << endl;
-	cout << "Giai bai toan " << filePath << endl;
+	cout << "Nombre del archivo: " << filePath << endl;
 	ifstream dataFile;
 	dataFile.open(filePath.c_str());
 	if(dataFile.is_open()){
