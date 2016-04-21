@@ -20,8 +20,9 @@ int main(int argc, char* argv[]){
 	TSPTabuSolver solver3("tsp2.txt");
 	solver3.solve(7);
 
+//	TSPTabuSolver benchmark("CCNFP10g1b.txt");
 	std::cout << "Time: " << (std::clock() - start) / (double)(CLOCKS_PER_SEC / 1000) <<
 	" ms" << std::endl;
-	
+
 	return 1;
 }
